@@ -1,0 +1,35 @@
+{
+  "logs": [
+    {
+      "msg": "Port 5000 is up and running",
+      "imp": false,
+      "tech": "Sarah Williams",
+      "date": "2021-05-18T16:58:46.543Z",
+      "id": 1
+    },
+    {
+      "msg": "Port 5000 is broken",
+      "imp": true,
+      "tech": "Mike Hussey",
+      "date": "2021-05-18T17:01:00.679Z",
+      "id": 3
+    }
+  ],
+  "tech": [
+    {
+      "id": 1,
+      "firstName": "John ",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Sarah",
+      "lastName": "Williams"
+    },
+    {
+      "firstName": "Mike",
+      "lastName": "Hussey",
+      "id": 5
+    }
+  ]
+}
