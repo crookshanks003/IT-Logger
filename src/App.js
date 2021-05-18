@@ -19,16 +19,15 @@ const App = () => {
     return (
         <Provider store={store}>
             <Fragment>
-                <Searchbar>
-                    <div className="container">
-                        <AddButton />
-                        <AddLogModal />
-                        <EditLogModal />
-                        <AddTechModal />
-                        <TechListModal />
-                        <Logs />
-                    </div>
-                </Searchbar>
+                <Searchbar />
+                <div className="container">
+                    <AddButton />
+                    <AddLogModal />
+                    <EditLogModal />
+                    <AddTechModal />
+                    <TechListModal />
+                    <Logs />
+                </div>
             </Fragment>
         </Provider>
     );
